@@ -11,6 +11,7 @@ interface Note {
   title: string
   content: string
   user_id: string
+  created_at: string
 }
 
 export default function NoteEditorPage() {

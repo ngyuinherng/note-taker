@@ -1,0 +1,1496 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "GqbqQ",
+      "name": "Landing Page",
+      "width": 1440,
+      "fill": "$canvas",
+      "cornerRadius": 12,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "9UunX",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$canvas",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CRjdL",
+              "name": "navLogo",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FPUmJ",
+                  "name": "navLogoMark",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$ink-primary",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "iRSKZ",
+                      "name": "navLogoIc",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "file-text",
+                      "iconFontFamily": "lucide",
+                      "fill": "$canvas"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "2ty8T",
+                  "name": "navLogoTxt",
+                  "fill": "$ink-primary",
+                  "content": "Note Taker",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.01
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nlxmO",
+              "name": "navMid",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ETyic",
+                  "name": "navL1",
+                  "fill": "$ink-secondary",
+                  "content": "Features",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Hikkc",
+                  "name": "navL2",
+                  "fill": "$ink-secondary",
+                  "content": "Pricing",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MmXYA",
+              "name": "navRight",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wqmaL",
+                  "name": "navSignIn",
+                  "fill": "$ink-primary",
+                  "content": "Sign in",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "id": "ZGTjG",
+                  "type": "ref",
+                  "ref": "7SNia",
+                  "height": 36,
+                  "name": "navCTA",
+                  "descendants": {
+                    "3qjNZ": {
+                      "content": "Get started"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ACh0L",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "$canvas",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            96,
+            48,
+            48,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sgRI9",
+              "name": "heroHead",
+              "fill": "$ink-primary",
+              "textGrowth": "fixed-width",
+              "width": 960,
+              "content": "Capture Your Thoughts,\nStay Organized",
+              "lineHeight": 1.05,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 72,
+              "fontWeight": "700",
+              "letterSpacing": -0.025
+            },
+            {
+              "type": "text",
+              "id": "51a8i",
+              "name": "heroSub",
+              "fill": "$ink-secondary",
+              "textGrowth": "fixed-width",
+              "width": 680,
+              "content": "A simple, beautiful way to capture and organize your notes. Sign up free and start taking notes in seconds.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Siqfc",
+              "name": "heroCTAs",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "wcoBH",
+                  "type": "ref",
+                  "ref": "7SNia",
+                  "height": 48,
+                  "name": "heroBtn1",
+                  "descendants": {
+                    "3qjNZ": {
+                      "content": "Start for free",
+                      "fontSize": 15
+                    }
+                  }
+                },
+                {
+                  "id": "dNGWp",
+                  "type": "ref",
+                  "ref": "Ygvq9",
+                  "height": 48,
+                  "name": "heroBtn2",
+                  "descendants": {
+                    "8wO9N": {
+                      "content": "Learn more",
+                      "fontSize": 15
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "x89sT",
+              "name": "heroNote",
+              "fill": "$ink-tertiary",
+              "content": "Free for individuals. No credit card required.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QajwM",
+          "name": "Features",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "imT2q",
+              "name": "featHeadWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8Ith9",
+                  "name": "featEyebrow",
+                  "fill": "$accent",
+                  "content": "FEATURES",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "text",
+                  "id": "VjJqX",
+                  "name": "featHead",
+                  "fill": "$ink-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Everything you need to capture ideas",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.02
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XNCEF",
+              "name": "featGrid",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "D7wpr",
+                  "name": "featRow1",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U4fmG",
+                      "name": "fc1",
+                      "width": "fill_container",
+                      "fill": "$canvas",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "G1buN",
+                          "name": "fc1Ic",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "$ink-primary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "SP2Ez",
+                              "name": "fc1IcI",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "file-text",
+                              "iconFontFamily": "lucide",
+                              "fill": "$canvas"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "fd6mG",
+                          "name": "fc1Title",
+                          "fill": "$ink-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Simple & Fast",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.01
+                        },
+                        {
+                          "type": "text",
+                          "id": "NrY0x",
+                          "name": "fc1Body",
+                          "fill": "$ink-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Create notes instantly. No complicated setup or learning curve. Just open and write.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xxg1X",
+                      "name": "fc2",
+                      "width": "fill_container",
+                      "fill": "$canvas",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Bi0E5",
+                          "name": "fc2Ic",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "$accent",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "nlUUt",
+                              "name": "fc2IcI",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "cloud",
+                              "iconFontFamily": "lucide",
+                              "fill": "$canvas"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "3RrXk",
+                          "name": "fc2Title",
+                          "fill": "$ink-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Always Synced",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.01
+                        },
+                        {
+                          "type": "text",
+                          "id": "iZV66",
+                          "name": "fc2Body",
+                          "fill": "$ink-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Your notes are saved to the cloud automatically. Access them from any device, anytime.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dNCuL",
+                  "name": "featRow2",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DHHeq",
+                      "name": "fc3",
+                      "width": "fill_container",
+                      "fill": "$canvas",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "I4HUP",
+                          "name": "fc3Ic",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "$ink-primary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "o7Z9P",
+                              "name": "fc3IcI",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "shield",
+                              "iconFontFamily": "lucide",
+                              "fill": "$canvas"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "8H3t1",
+                          "name": "fc3Title",
+                          "fill": "$ink-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Secure & Private",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.01
+                        },
+                        {
+                          "type": "text",
+                          "id": "uOTEm",
+                          "name": "fc3Body",
+                          "fill": "$ink-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Your notes are protected with secure authentication. Only you can access your content.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "11aw4",
+                      "name": "fc4",
+                      "width": "fill_container",
+                      "fill": "$canvas",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JpQpG",
+                          "name": "fc4Ic",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "$ink-primary",
+                          "cornerRadius": 10,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "uVgZK",
+                              "name": "fc4IcI",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "sparkles",
+                              "iconFontFamily": "lucide",
+                              "fill": "$canvas"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "L3ara",
+                          "name": "fc4Title",
+                          "fill": "$ink-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Powered by AI",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.01
+                        },
+                        {
+                          "type": "text",
+                          "id": "nKJ04",
+                          "name": "fc4Body",
+                          "fill": "$ink-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Smart organization helps you find what you need. AI-assisted search and categorization.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Rac9M",
+          "name": "Pricing",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            120,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jIbCd",
+              "name": "priceHeadWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jnySF",
+                  "name": "priceEyebrow",
+                  "fill": "$accent",
+                  "content": "PRICING",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "text",
+                  "id": "aBxia",
+                  "name": "priceHead",
+                  "fill": "$ink-primary",
+                  "content": "Simple, transparent pricing.",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.02
+                },
+                {
+                  "type": "text",
+                  "id": "T65Lv",
+                  "name": "priceSub",
+                  "fill": "$ink-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Start free. Upgrade when you need more.",
+                  "lineHeight": 1.55,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SLg1L",
+              "name": "priceGrid",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n3v27",
+                  "name": "plan1",
+                  "width": 380,
+                  "fill": "$canvas",
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kcf5S",
+                      "name": "plan1Name",
+                      "fill": "$ink-secondary",
+                      "content": "Free",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.04
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QNYod",
+                      "name": "plan1PriceRow",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "padding": [
+                        0,
+                        0,
+                        8,
+                        0
+                      ],
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gl2lq",
+                          "name": "plan1Price",
+                          "fill": "$ink-primary",
+                          "content": "$0",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 48,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.02
+                        },
+                        {
+                          "type": "text",
+                          "id": "d7K7p",
+                          "name": "plan1Per",
+                          "fill": "$ink-tertiary",
+                          "content": "forever",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "oFsB2",
+                      "name": "plan1Desc",
+                      "fill": "$ink-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Perfect for personal note-taking with unlimited notes.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "id": "i7etq",
+                      "type": "ref",
+                      "ref": "Ygvq9",
+                      "width": "fill_container",
+                      "height": 42,
+                      "name": "plan1Btn",
+                      "descendants": {
+                        "8wO9N": {
+                          "content": "Get started"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l3dm2",
+                      "name": "plan1Div",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$border"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vyGXb",
+                      "name": "plan1Feats",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4edyT",
+                          "name": "p1f1",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "t08PQ",
+                              "name": "p1f1i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YhT1a",
+                              "name": "p1f1t",
+                              "fill": "$ink-primary",
+                              "content": "Unlimited notes",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5FmPG",
+                          "name": "p1f2",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "PP8jU",
+                              "name": "p1f2i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oSpWQ",
+                              "name": "p1f2t",
+                              "fill": "$ink-primary",
+                              "content": "Cloud sync",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tNMsQ",
+                          "name": "p1f3",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "mRvGT",
+                              "name": "p1f3i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uqthb",
+                              "name": "p1f3t",
+                              "fill": "$ink-primary",
+                              "content": "Secure authentication",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lFXX8",
+                  "name": "plan2",
+                  "width": 380,
+                  "fill": "$ink-primary",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000033",
+                    "offset": {
+                      "x": 0,
+                      "y": 18
+                    },
+                    "blur": 48,
+                    "spread": -12
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aI5dy",
+                      "name": "plan2Top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e3h7b",
+                          "name": "plan2Name",
+                          "fill": "$canvas",
+                          "content": "Pro",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.04
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PEKen",
+                          "name": "plan2Tag",
+                          "fill": "$accent",
+                          "cornerRadius": 12,
+                          "padding": [
+                            3,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "F0CQf",
+                              "name": "plan2TagT",
+                              "fill": "$canvas",
+                              "content": "Coming soon",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aIrxj",
+                      "name": "plan2PriceRow",
+                      "width": "fill_container",
+                      "gap": 6,
+                      "padding": [
+                        0,
+                        0,
+                        8,
+                        0
+                      ],
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NrPp0",
+                          "name": "plan2Price",
+                          "fill": "$canvas",
+                          "content": "$5",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 48,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.02
+                        },
+                        {
+                          "type": "text",
+                          "id": "HBQ11",
+                          "name": "plan2Per",
+                          "fill": "#FFFFFF99",
+                          "content": "per month",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WrTyc",
+                      "name": "plan2Desc",
+                      "fill": "#FFFFFFCC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "For power users who need AI features and priority support.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0yLiU",
+                      "name": "plan2Btn",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$canvas",
+                      "cornerRadius": 6,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Wh3WS",
+                          "name": "plan2BtnT",
+                          "fill": "$ink-primary",
+                          "content": "Join waitlist",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8rCMD",
+                      "name": "plan2Div",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "#FFFFFF1F"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "csUso",
+                      "name": "plan2Feats",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aURzf",
+                          "name": "p2f1",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "3HRyG",
+                              "name": "p2f1i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "x7oqH",
+                              "name": "p2f1t",
+                              "fill": "$canvas",
+                              "content": "Everything in Free",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0HROc",
+                          "name": "p2f2",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "WNtnX",
+                              "name": "p2f2i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "9Rm1a",
+                              "name": "p2f2t",
+                              "fill": "$canvas",
+                              "content": "AI-powered search",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xYzNv",
+                          "name": "p2f3",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "TYhPC",
+                              "name": "p2f3i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aLcmh",
+                              "name": "p2f3t",
+                              "fill": "$canvas",
+                              "content": "Priority support",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Yruyq",
+                          "name": "p2f4",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "j2SO7",
+                              "name": "p2f4i",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rwmHK",
+                              "name": "p2f4t",
+                              "fill": "$canvas",
+                              "content": "Advanced organization",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Z874u",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "$canvas",
+          "padding": [
+            120,
+            48
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Da6FT",
+              "name": "ctaCard",
+              "width": 1100,
+              "fill": "$ink-primary",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                80,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P8Aaw",
+                  "name": "ctaHead",
+                  "fill": "$canvas",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Ready to capture your thoughts?",
+                  "lineHeight": 1.1,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.02
+                },
+                {
+                  "type": "text",
+                  "id": "JsVU5",
+                  "name": "ctaSub",
+                  "fill": "#FFFFFFB3",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Start taking notes in seconds. No credit card required.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xRz0j",
+                  "name": "ctaBtns",
+                  "gap": 12,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "teT6U",
+                      "name": "ctaBtn1",
+                      "height": 48,
+                      "fill": "$canvas",
+                      "cornerRadius": 6,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wRbuP",
+                          "name": "ctaBtn1T",
+                          "fill": "$ink-primary",
+                          "content": "Get started — it's free",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VvlWW",
+                      "name": "ctaBtn2",
+                      "height": 48,
+                      "fill": "#00000000",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF33"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "67TZK",
+                          "name": "ctaBtn2T",
+                          "fill": "$canvas",
+                          "content": "Sign in",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AGJc5",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$canvas",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            64,
+            48,
+            40,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LLoJb",
+              "name": "footTop",
+              "width": "fill_container",
+              "gap": 80,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "puzxV",
+                  "name": "footLeft",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bO4le",
+                      "name": "footLogo",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rtB86",
+                          "name": "footLogoMark",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$ink-primary",
+                          "cornerRadius": 6,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "kqS6S",
+                              "name": "footLogoIc",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "file-text",
+                              "iconFontFamily": "lucide",
+                              "fill": "$canvas"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "v77Ye",
+                          "name": "footLogoT",
+                          "fill": "$ink-primary",
+                          "content": "Note Taker",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.01
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JPc05",
+                      "name": "footTag",
+                      "fill": "$ink-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A simple way to capture and organize your thoughts. Built with Next.js and Supabase.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uiFcU",
+                  "name": "footCols",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "col1",
+                      "name": "footCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "col1Title",
+                          "name": "col1Title",
+                          "fill": "$ink-primary",
+                          "content": "Product",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col1L1",
+                          "name": "col1L1",
+                          "fill": "$ink-secondary",
+                          "content": "Features",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col1L2",
+                          "name": "col1L2",
+                          "fill": "$ink-secondary",
+                          "content": "Pricing",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "col2",
+                      "name": "footCol2",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "col2Title",
+                          "name": "col2Title",
+                          "fill": "$ink-primary",
+                          "content": "Account",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col2L1",
+                          "name": "col2L1",
+                          "fill": "$ink-secondary",
+                          "content": "Sign in",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col2L2",
+                          "name": "col2L2",
+                          "fill": "$ink-secondary",
+                          "content": "Sign up",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "col3",
+                      "name": "footCol3",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "col3Title",
+                          "name": "col3Title",
+                          "fill": "$ink-primary",
+                          "content": "Legal",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col3L1",
+                          "name": "col3L1",
+                          "fill": "$ink-secondary",
+                          "content": "Privacy",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "col3L2",
+                          "name": "col3L2",
+                          "fill": "$ink-secondary",
+                          "content": "Terms",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "footCopy",
+              "name": "footCopy",
+              "fill": "$ink-tertiary",
+              "content": "2026 Note Taker. Built with Next.js and Supabase.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

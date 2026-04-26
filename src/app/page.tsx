@@ -247,7 +247,7 @@ export default function Home() {
               href="/signup"
               className="h-12 px-6 bg-gray-900 text-white font-medium rounded-lg flex items-center justify-center hover:bg-gray-800"
             >
-              Get started — it's free
+              Get started — it&apos;s free
             </Link>
             <Link
               href="/login"

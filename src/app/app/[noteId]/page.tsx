@@ -6,6 +6,8 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase'
 import { ArrowLeft, Trash2, FileText } from 'lucide-react'
 
+export const dynamic = 'force-dynamic'
+
 interface Note {
   id: string
   title: string
